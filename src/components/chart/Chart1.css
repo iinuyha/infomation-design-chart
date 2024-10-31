@@ -1,0 +1,38 @@
+#box {
+  display: flex;
+  justify-content: space-between;
+  width: 500px;
+  margin: 0 auto;
+  color:rgb(255, 255, 255);
+  font-family: 'PyeongChangPeace-Bold';
+}
+
+#box > div {
+  text-align: center;
+  width: 30%;
+}
+
+.year {
+  font-size: 18px;
+  margin-top: 20px; /* 클래스 간격을 조절하는 여백 추가 */
+  margin-bottom: -50px; /* 클래스 간격을 조절하는 여백 추가 */
+  color: #cdcdcd;
+}
+
+.number {
+  font-size: 45px;
+  margin-top: 50px; /* 클래스 간격을 조절하는 여백 추가 */
+}
+
+.million {
+  font-size: 20px;
+  color: #888;
+  margin-top: -50px; /* 클래스 간격을 조절하는 여백 추가 */
+}
+
+#arrow {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 35px;
+  height:100%;
+}
